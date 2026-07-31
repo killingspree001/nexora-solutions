@@ -18,7 +18,7 @@ nexora-solutions/
 ├── index.html        the whole page
 ├── css/style.css     all styling, design tokens at the top
 ├── js/main.js        menu, scroll animations, counters, form handling
-├── fonts/            Sora and Inter, self hosted woff2 files
+├── fonts/            Fraunces and Inter, self hosted woff2 files
 └── images/           favicon
 ```
 
@@ -34,7 +34,7 @@ python -m http.server 8000
 
 ## Customizing
 
-- **Colors** — edit the CSS variables at the top of `css/style.css` (`--navy-900`, `--gold` and friends). Change those and the whole site follows.
+- **Colors** — edit the CSS variables at the top of `css/style.css` (`--cream`, `--pine-950`, `--accent` and friends). Change those and the whole site follows.
 - **Text and sections** — everything lives in `index.html`, plain markup with clear section comments.
 - **Logo** — the hexagon logo is inline SVG in the header and footer of `index.html`, and `images/favicon.svg`. Swap those for your own mark.
 - **Social links** — in the footer, update the four `href` values to your profiles.

@@ -15,9 +15,9 @@
     <div class="container nav-wrap">
       <a href="#top" class="brand" aria-label="Nexora Solutions home">
         <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true">
-          <path d="M32 3 58 17.5v29L32 61 6 46.5v-29Z" fill="#0A2C1F"/>
-          <path d="M32 8 53.5 20v24L32 56 10.5 44V20Z" fill="none" stroke="#31C77F" stroke-width="3.5"/>
-          <path d="M22 44V20h5.4l9.2 14.6V20H42v24h-5.4L27.4 29.4V44Z" fill="#fff"/>
+          <path d="M32 3 58 17.5v29L32 61 6 46.5v-29Z" fill="#143528"/>
+          <path d="M32 8 53.5 20v24L32 56 10.5 44V20Z" fill="none" stroke="#2AAE70" stroke-width="3.5"/>
+          <path d="M22 44V20h5.4l9.2 14.6V20H42v24h-5.4L27.4 29.4V44Z" fill="#FAF7F0"/>
         </svg>
         <span class="brand-text">NEXORA<small>SOLUTIONS</small></span>
       </a>
@@ -27,7 +27,7 @@
         <a href="#services">Services</a>
         <a href="#work">Work</a>
         <a href="#contact">Contact</a>
-        <a href="#contact" class="btn btn-accent nav-cta">Get in Touch</a>
+        <a href="#contact" class="btn btn-dark nav-cta">Get in Touch</a>
       </nav>
 
       <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav" aria-label="Menu">
@@ -40,64 +40,44 @@
 
     <!-- hero -->
     <section class="hero">
-      <div class="container hero-grid">
-        <div class="hero-copy reveal">
-          <span class="hero-badge"><span class="dot"></span>Digital agency, Lagos</span>
-          <h1>We build digital experiences that <em>grow your business</em></h1>
-          <p>Nexora Solutions helps brands stand out online with modern design, smart strategy, and reliable results. From first sketch to final launch, we handle it all.</p>
-          <div class="hero-actions">
-            <a href="#work" class="btn btn-accent">See our work</a>
-            <a href="#contact" class="btn btn-ghost">Get in touch</a>
-          </div>
-          <ul class="hero-points">
-            <li>Fast, mobile friendly builds</li>
-            <li>Clear pricing, no surprises</li>
-            <li>Support after launch</li>
-          </ul>
-        </div>
-
-        <div class="hero-visual reveal" aria-hidden="true">
-          <div class="mock-browser">
-            <div class="mock-bar"><i></i><i></i><i></i></div>
-            <div class="mock-body">
-              <div class="mock-nav">
-                <span class="mock-logo"></span>
-                <span class="mock-links"><i></i><i></i><i></i></span>
-              </div>
-              <div class="mock-headline"></div>
-              <div class="mock-headline short"></div>
-              <div class="mock-btn"></div>
-              <div class="mock-chart">
-                <i style="--h:38%"></i><i style="--h:62%"></i><i style="--h:48%"></i><i style="--h:80%"></i><i style="--h:66%"></i><i style="--h:92%"></i>
-              </div>
-            </div>
-          </div>
-          <div class="float-card card-a">
-            <svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            <div><strong>Project delivered</strong><span>On time, on budget</span></div>
-          </div>
-          <div class="float-card card-b">
-            <strong>+120%</strong><span>traffic growth</span>
-          </div>
+      <div class="container hero-inner reveal">
+        <p class="eyebrow"><span class="star">✳</span> Digital agency, Lagos</p>
+        <h1>Digital experiences that <em>grow</em> your business</h1>
+        <p class="hero-sub">Nexora Solutions helps brands stand out online with modern design, smart strategy, and reliable results. From first sketch to final launch, we handle it all.</p>
+        <div class="hero-actions">
+          <a href="#work" class="btn btn-dark">See our work</a>
+          <a href="#contact" class="btn btn-outline">Get in touch</a>
         </div>
       </div>
     </section>
 
+    <!-- service ticker -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>Web Design</span><i>✳</i><span>Development</span><i>✳</i><span>SEO &amp; Marketing</span><i>✳</i><span>Branding</span><i>✳</i><span>Strategy</span><i>✳</i><span>Support</span><i>✳</i>
+        <span>Web Design</span><i>✳</i><span>Development</span><i>✳</i><span>SEO &amp; Marketing</span><i>✳</i><span>Branding</span><i>✳</i><span>Strategy</span><i>✳</i><span>Support</span><i>✳</i>
+      </div>
+    </div>
+
     <!-- about -->
     <section class="section about" id="about">
-      <div class="container about-grid">
-        <div class="about-copy reveal">
-          <span class="section-label">About us</span>
+      <div class="container">
+        <div class="sec-head reveal">
+          <span class="sec-num">01</span>
           <h2>A small team with big attention to detail</h2>
-          <p>We are a creative team passionate about delivering high quality digital solutions. Our goal is simple: help businesses thrive in the digital world with websites and campaigns that actually work.</p>
-          <p>No bloated process, no jargon. You talk directly to the people doing the work, and we keep you in the loop from kickoff to launch.</p>
-          <ul class="check-list">
+        </div>
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p class="lead">We are a creative team passionate about delivering high quality digital solutions. Our goal is simple: help businesses thrive in the digital world with websites and campaigns that actually work.</p>
+            <p>No bloated process, no jargon. You talk directly to the people doing the work, and we keep you in the loop from kickoff to launch.</p>
+          </div>
+          <ul class="about-points reveal">
             <li>Strategy before pixels, every project starts with your goals</li>
             <li>Designs built to convert visitors into customers</li>
             <li>Honest timelines and communication you can rely on</li>
           </ul>
         </div>
-        <div class="about-stats reveal">
+        <div class="stats reveal">
           <div class="stat"><strong data-count="50">0</strong><span>Projects shipped</span></div>
           <div class="stat"><strong data-count="30">0</strong><span>Happy clients</span></div>
           <div class="stat"><strong data-count="6">0</strong><span>Years experience</span></div>
@@ -109,40 +89,43 @@
     <!-- services -->
     <section class="section services" id="services">
       <div class="container">
-        <div class="section-head reveal">
-          <span class="section-label">Services</span>
+        <div class="sec-head reveal">
+          <span class="sec-num">02</span>
           <h2>What we do best</h2>
-          <p>Everything you need to look sharp online and keep growing, under one roof.</p>
         </div>
-        <div class="service-grid">
-          <article class="service-card reveal">
-            <div class="service-icon">
-              <svg viewBox="0 0 24 24"><rect x="2.5" y="4" width="19" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M2.5 8.5h19M8 21h8m-4-3v3" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
-            </div>
+        <div class="service-list">
+          <a class="service-row reveal" href="#contact">
+            <span class="row-num">01</span>
             <h3>Web Design</h3>
             <p>Modern, responsive websites designed around your brand and your customers, not templates.</p>
-          </article>
-          <article class="service-card reveal">
-            <div class="service-icon">
-              <svg viewBox="0 0 24 24"><path d="m8 7-5 5 5 5m8-10 5 5-5 5M13.5 4l-3 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </div>
+            <span class="row-arrow" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </a>
+          <a class="service-row reveal" href="#contact">
+            <span class="row-num">02</span>
             <h3>Development</h3>
             <p>Fast, secure and scalable builds. Clean code that loads quick and is easy to maintain.</p>
-          </article>
-          <article class="service-card reveal">
-            <div class="service-icon">
-              <svg viewBox="0 0 24 24"><path d="M3 21v-6m6 6V9m6 12v-8m6 8V5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
-            </div>
+            <span class="row-arrow" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </a>
+          <a class="service-row reveal" href="#contact">
+            <span class="row-num">03</span>
             <h3>SEO &amp; Marketing</h3>
             <p>Rank higher, get found and turn traffic into paying customers with data led campaigns.</p>
-          </article>
-          <article class="service-card reveal">
-            <div class="service-icon">
-              <svg viewBox="0 0 24 24"><path d="M12 3v3m0 12v3m9-9h-3M6 12H3m14.7-5.7-2.1 2.1M8.4 15.6l-2.1 2.1m11.4 0-2.1-2.1M8.4 8.4 6.3 6.3" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><circle cx="12" cy="12" r="3.2" fill="none" stroke="currentColor" stroke-width="1.7"/></svg>
-            </div>
+            <span class="row-arrow" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </a>
+          <a class="service-row reveal" href="#contact">
+            <span class="row-num">04</span>
             <h3>Branding</h3>
             <p>Logos, colors and voice that make your business memorable and consistent everywhere.</p>
-          </article>
+            <span class="row-arrow" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </a>
         </div>
       </div>
     </section>
@@ -150,22 +133,16 @@
     <!-- past work -->
     <section class="section work" id="work">
       <div class="container">
-        <div class="section-head reveal">
-          <span class="section-label">Past work</span>
-          <h2>Recent projects we're proud of</h2>
-          <p>A few selected builds that show the range of what we deliver.</p>
+        <div class="sec-head reveal">
+          <span class="sec-num">03</span>
+          <h2>Selected work</h2>
         </div>
         <div class="work-grid">
           <article class="work-card reveal">
-            <div class="shot shot-dashboard" aria-hidden="true">
-              <div class="shot-bar"><i></i><i></i><i></i></div>
-              <div class="shot-body">
-                <div class="shot-side"><i></i><i></i><i></i><i></i></div>
-                <div class="shot-main">
-                  <div class="shot-tiles"><i></i><i></i><i></i></div>
-                  <div class="shot-graph"><i style="--h:40%"></i><i style="--h:70%"></i><i style="--h:55%"></i><i style="--h:85%"></i><i style="--h:60%"></i><i style="--h:75%"></i><i style="--h:95%"></i></div>
-                </div>
-              </div>
+            <div class="thumb thumb-a" aria-hidden="true">
+              <span class="thumb-letter">P</span>
+              <span class="ring"></span>
+              <span class="dot"></span>
             </div>
             <div class="work-info">
               <h3>Payhaven</h3>
@@ -175,12 +152,10 @@
           </article>
 
           <article class="work-card reveal">
-            <div class="shot shot-store" aria-hidden="true">
-              <div class="shot-bar"><i></i><i></i><i></i></div>
-              <div class="shot-body">
-                <div class="shot-hero"></div>
-                <div class="shot-products"><i></i><i></i><i></i><i></i><i></i><i></i></div>
-              </div>
+            <div class="thumb thumb-b" aria-hidden="true">
+              <span class="thumb-letter">K</span>
+              <span class="ring"></span>
+              <span class="dot"></span>
             </div>
             <div class="work-info">
               <h3>Karafo</h3>
@@ -190,12 +165,10 @@
           </article>
 
           <article class="work-card reveal">
-            <div class="shot shot-resto" aria-hidden="true">
-              <div class="shot-bar"><i></i><i></i><i></i></div>
-              <div class="shot-body">
-                <div class="shot-banner"><i></i><span></span></div>
-                <div class="shot-rows"><i></i><i></i><i></i></div>
-              </div>
+            <div class="thumb thumb-c" aria-hidden="true">
+              <span class="thumb-letter">A</span>
+              <span class="ring"></span>
+              <span class="dot"></span>
             </div>
             <div class="work-info">
               <h3>Amberleaf</h3>
@@ -210,35 +183,32 @@
     <!-- contact -->
     <section class="section contact" id="contact">
       <div class="container">
-        <div class="section-head reveal">
-          <span class="section-label">Contact</span>
+        <div class="sec-head sec-head-light reveal">
+          <span class="sec-num">04</span>
           <h2>Let's talk about your project</h2>
-          <p>Tell us what you're building and we'll get back to you within one business day.</p>
         </div>
         <div class="contact-grid">
           <div class="contact-info reveal">
-            <a class="info-card" href="tel:+2348001234567">
-              <div class="info-icon">
+            <p class="contact-lead">Tell us what you're building and we'll get back to you within one business day.</p>
+            <a class="info-row" href="tel:+2348001234567">
+              <span class="info-icon">
                 <svg viewBox="0 0 24 24"><path d="M6.6 3h3l1.5 4.5-2 1.5a13 13 0 0 0 5.9 5.9l1.5-2L21 14.4v3A2.6 2.6 0 0 1 18.4 20 15.4 15.4 0 0 1 4 5.6 2.6 2.6 0 0 1 6.6 3Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
-              </div>
-              <div><span>Phone</span><strong>+234 800 123 4567</strong></div>
+              </span>
+              <span><small>Phone</small>+234 800 123 4567</span>
             </a>
-            <a class="info-card" href="mailto:hello@nexorasolutions.com">
-              <div class="info-icon">
+            <a class="info-row" href="mailto:hello@nexorasolutions.com">
+              <span class="info-icon">
                 <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="m3.5 7 8.5 6 8.5-6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              </div>
-              <div><span>Email</span><strong>hello@nexorasolutions.com</strong></div>
+              </span>
+              <span><small>Email</small>hello@nexorasolutions.com</span>
             </a>
-            <div class="info-card">
-              <div class="info-icon">
+            <div class="info-row">
+              <span class="info-icon">
                 <svg viewBox="0 0 24 24"><path d="M12 21s7-5.6 7-11a7 7 0 1 0-14 0c0 5.4 7 11 7 11Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><circle cx="12" cy="10" r="2.6" fill="none" stroke="currentColor" stroke-width="1.7"/></svg>
-              </div>
-              <div><span>Location</span><strong>Lagos, Nigeria</strong></div>
+              </span>
+              <span><small>Location</small>Lagos, Nigeria</span>
             </div>
-            <div class="hours-note">
-              <strong>Working hours</strong>
-              <p>Monday to Friday, 9am till 6pm WAT. We reply to messages sent on weekends first thing Monday.</p>
-            </div>
+            <p class="hours">Monday to Friday, 9am till 6pm WAT. Messages sent on weekends get a reply first thing Monday.</p>
           </div>
 
           <form class="contact-form reveal" id="contactForm" novalidate>
@@ -254,7 +224,7 @@
               <label for="message">Your message</label>
               <textarea id="message" name="message" rows="5" placeholder="Tell us a bit about your project..." required></textarea>
             </div>
-            <button type="submit" class="btn btn-accent btn-block">Send Message</button>
+            <button type="submit" class="btn btn-dark btn-block">Send Message</button>
             <p class="form-status" id="formStatus" role="status"></p>
           </form>
         </div>
@@ -266,11 +236,11 @@
   <!-- footer -->
   <footer class="site-footer">
     <div class="container footer-grid">
-      <a href="#top" class="brand brand-light" aria-label="Back to top">
+      <a href="#top" class="brand" aria-label="Back to top">
         <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true">
-          <path d="M32 3 58 17.5v29L32 61 6 46.5v-29Z" fill="#11402C"/>
-          <path d="M32 8 53.5 20v24L32 56 10.5 44V20Z" fill="none" stroke="#31C77F" stroke-width="3.5"/>
-          <path d="M22 44V20h5.4l9.2 14.6V20H42v24h-5.4L27.4 29.4V44Z" fill="#fff"/>
+          <path d="M32 3 58 17.5v29L32 61 6 46.5v-29Z" fill="#143528"/>
+          <path d="M32 8 53.5 20v24L32 56 10.5 44V20Z" fill="none" stroke="#2AAE70" stroke-width="3.5"/>
+          <path d="M22 44V20h5.4l9.2 14.6V20H42v24h-5.4L27.4 29.4V44Z" fill="#FAF7F0"/>
         </svg>
         <span class="brand-text">NEXORA<small>SOLUTIONS</small></span>
       </a>
